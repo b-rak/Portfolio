@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Inter:wght@400;500;700&family=Kalam:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow_light_1 {
+  box-shadow: 0rem 0rem 0.25rem rgba(0, 0, 0, 0.08);
+}
+
+.shadow_light_2 {
+  box-shadow: 0rem 0rem 0.25rem #c2ced6;
+}
+
+.shadow_light_3 {
+  box-shadow: 0rem 0rem 0.5rem 0.31rem rgba(0, 0, 0, 0.08);
+}
+
+.shadow_light_4 {
+  box-shadow: 0rem 0rem 0.25rem #494848;
+}
+
+.shadow_light_5 {
+  box-shadow: 0 0.05rem 0.25rem rgba(62, 74, 29, 0.8);
+}
+
+.h2_medium_28 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.h3_medium_18 {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.button_semibold_18 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text_regular_18 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-family: "Roboto Mono", "monospace";
+  font-weight: 400;
+  font-style: normal;
+}
