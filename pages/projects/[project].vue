@@ -1,0 +1,32 @@
+<template>
+  <div class="flex flex-col gap-8 pt-4">
+    <div
+      class="flex items-center gap-4 cursor-pointer text-lightGray w-fit"
+      @click="() => navigateTo(localePath('/projects'))"
+    >
+      <font-awesome-icon
+        :icon="['fas', 'angle-left']"
+        class="h-6 w-4 text-[1.5rem]"
+      />
+      <span>{{ $t("projects.backButton") }}</span>
+    </div>
+    <ProjectDetails :prjKey="prjKey" />
+  </div>
+</template>
+
+<script lang="ts" setup>
+definePageMeta({
+  middleware: "projects",
+});
+const localePath = useLocalePath();
+
+const route = useRoute();
+const prjKey = computed(() => {
+  const param = route.params.project;
+  if (param === "nutrition-calculator") return "naehrstoffe";
+  else if (param === "js-challenges") return "jsChallenges";
+  else if (param === "mastering-nuxt-3") return "masteringNuxt";
+  else if (param === "new-dashboard") return "newDashboard";
+  else return "";
+});
+</script>
