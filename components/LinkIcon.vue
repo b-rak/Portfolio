@@ -2,7 +2,7 @@
   <a :href="to" target="_blank" rel="noreferrer" class="cursor-pointer">
     <font-awesome-icon
       :icon="{ prefix: iconPrefix, iconName: iconName }"
-      :class="`${iconWidth} text-white hover:text-lightGray`"
+      :class="`${iconWidth} text-black hover:text-darkGray dark:text-white dark:hover:text-lightGray`"
     />
   </a>
 </template>

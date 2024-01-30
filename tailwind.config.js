@@ -4,12 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
+        /** Dark mode */
         darkCharcoal: '#292828' /* almost black / container bg */,
         darkGray: '#323031' /* almost black / page bg */,
         warmOrange: '#FF9800' /* orange / navigation elements */,
         lightGray: '#CFCFCF' /* gray / neutral color for text */,
         oliveGreen: '#556B2F' /* dark green */,
         brightRed: '#DB3A34' /* red / for emphasis */,
+        /** Light Mode */
+        lightCharcoal: '#F5F5F5' /** light gray / container bg */,
+        lightGray: '#E0E0E0' /** light gray / page bg */,
+        /**warmOrange: '#FF9800' */ /** orange / navigation elements; alternatively: coolBlue: '#2196F3' blue / navigation elements */
+        darkGray: '#333333' /** dark gray / neutral color for text */,
+        forestGreen: '#2E7D32' /** dark green */,
+        deepOrange: '#FF5722' /** deep orange / for emphasis */,
       },
     },
     fontFamily: {

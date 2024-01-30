@@ -1,19 +1,19 @@
 <template>
-  <h1 class="font-handwriting text-5xl text-lightGray mt-8">
+  <h1 class="font-handwriting text-5xl text-darkGray dark:text-lightGray mt-8">
     {{ $t("experience.title") }}
   </h1>
 
   <div class="flex flex-col lg:flex-row gap-8 lg:12 pt-10 lg:px-10 xl:px-20">
     <div
-      class="flex lg:flex-col gap-4 items-start text-lightGray lg:min-w-fit overflow-y-hidden overflow-x-auto w-[20rem] min-[425px]:w-auto"
+      class="flex lg:flex-col gap-4 items-start text-darkGray dark:text-lightGray lg:min-w-fit overflow-y-hidden overflow-x-auto w-[20rem] min-[425px]:w-auto"
       aria-role="tablist"
       aria-label="Job list tabs"
     >
       <button
         v-for="i in 4"
-        class="button_semibold_18 no-underline hover:text-[#8892B0] after:block after:content-[''] after:border-b-[0.188rem] after:border-b-brightRed after:scale-x-0 after:transition after:ease-in-out after:duration-[250ms]"
+        class="button_semibold_18 no-underline hover:text-[#A4ACCC] dark:hover:text-[#8892B0] after:block after:content-[''] after:border-b-[0.188rem] after:border-b-deepOrange dark:after:border-b-brightRed after:scale-x-0 after:transition after:ease-in-out after:duration-[250ms]"
         :class="{
-          'after:scale-x-100 after:origin-[0%_50%] !text-lightGray':
+          'after:scale-x-100 after:origin-[0%_50%] !text-darkGray dark:!text-lightGray':
             selected === i,
         }"
         role="tab"
@@ -34,16 +34,18 @@
       :aria-labelledby="`tab-${i}`"
       :hidden="selected !== i"
       :class="{ 'content-in': selected === i }"
-      class="p-6 bg-darkCharcoal rounded-lg shadow_light_4 text-lightGray"
+      class="p-6 bg-lightCharcoal dark:bg-darkCharcoal rounded-lg shadow_light_4 text-darkGray dark:text-lightGray"
     >
       <h2 class="h2_medium_28">{{ jobs[i - 1].title }}</h2>
-      <h3 class="h3_medium_18 mt-1 text-lightGray text-opacity-60">
+      <h3
+        class="h3_medium_18 mt-1 text-darkGray dark:text-lightGray text-opacity-60"
+      >
         {{ $t("experience." + jobs[i - 1].key + ".time") }}
         <a
           :href="jobs[i - 1].employerHomepage"
           rel="noreferrer"
           target="_blank"
-          class="text-oliveGreen hover:underline"
+          class="text-forestGreen dark:text-oliveGreen hover:underline"
           >{{ jobs[i - 1].employer }}</a
         >
       </h3>
@@ -62,7 +64,7 @@
       >
         <div
           v-for="skill in jobs[i - 1].skills"
-          class="bg-oliveGreen rounded-md py-1 px-2 text_regular_18"
+          class="bg-forestGreen dark:bg-oliveGreen rounded-md py-1 px-2 text_regular_18"
         >
           {{ skill }}
         </div>

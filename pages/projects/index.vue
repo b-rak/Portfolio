@@ -1,5 +1,5 @@
 <template>
-  <h1 class="font-handwriting text-5xl text-lightGray mt-8">
+  <h1 class="font-handwriting text-5xl text-darkGray dark:text-lightGray mt-8">
     {{ $t("projects.title") }}
   </h1>
   <div class="flex flex-col gap-10 md:gap-20 my-4">

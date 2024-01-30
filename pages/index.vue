@@ -11,13 +11,13 @@
       </div>
       <div class="flex flex-col items-center gap-4 mb-4">
         <div
-          class="text-lightGray sm:w-[30rem] lg:w-[40rem] rounded-lg shadow_light_4 bg-darkCharcoal border-solid border-oliveGreen p-4 text-justify text_regular_18"
+          class="text-darkGray dark:text-lightGray sm:w-[30rem] lg:w-[40rem] rounded-lg shadow_light_4 bg-lightCharcoal dark:bg-darkCharcoal border-solid border-forestGreen dark:border-oliveGreen p-4 text-justify text_regular_18"
         >
           <p>{{ $t("landing") }}</p>
         </div>
         <button
           @click="navigateTo(localePath('/aboutme'))"
-          class="text-warmOrange border-2 border-warmOrange rounded-md px-2 py-1 w-fit"
+          class="text-warmOrange dark:text-warmOrange border-2 border-warmOrange dark:border-warmOrange rounded-md px-2 py-1 w-fit"
         >
           {{ $t("aboutme.title") }}
         </button>
@@ -26,7 +26,7 @@
     <template v-else>
       <LandingHeading />
       <div
-        class="text-lightGray sm:w-[30rem] lg:w-[40rem] mt-16 rounded-lg shadow_light_4 bg-darkCharcoal border-solid border-oliveGreen p-4 text-justify text_regular_18"
+        class="text-darkGray dark:text-lightGray sm:w-[30rem] lg:w-[40rem] mt-16 rounded-lg shadow_light_4 bg-lightCharcoal dark:bg-darkCharcoal border-solid border-forestGreen dark:border-oliveGreen p-4 text-justify text_regular_18"
       >
         <p>{{ $t("landing") }}</p>
       </div>

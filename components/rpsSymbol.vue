@@ -9,7 +9,7 @@
     <slot />
     <button
       :id="symbol"
-      class="flex flex-col gap-2 text_regular_18 text-lightGray"
+      class="flex flex-col gap-2 text_regular_18 text-darkGray dark:text-lightGray"
       :class="{ 'cursor-default': result }"
     >
       <img

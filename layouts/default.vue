@@ -16,7 +16,7 @@
     </Head>
     <Body>
       <div
-        class="bg-darkGray min-w-screen min-h-screen flex flex-col"
+        class="bg-lightGray dark:bg-darkGray min-w-screen min-h-screen flex flex-col"
         :class="{
           fixed: menuOpen,
           'sm:bg-[url(/images/rocket.png)] sm:bg-no-repeat bg-contain bg-[left_0_top_50%]':

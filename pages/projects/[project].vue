@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-8 pt-4">
     <div
-      class="flex items-center gap-4 cursor-pointer text-lightGray w-fit"
+      class="flex items-center gap-4 cursor-pointer text-darkGray dark:text-lightGray w-fit"
       @click="() => navigateTo(localePath('/projects'))"
     >
       <font-awesome-icon

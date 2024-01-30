@@ -1,7 +1,9 @@
 <template>
-  <h1 class="font-handwriting text-5xl text-lightGray">
+  <h1 class="font-handwriting text-5xl text-darkGray dark:text-lightGray">
     Hey
-    <span id="itsme" class="text-brightRed inline-block">it's-a me</span>
+    <span id="itsme" class="text-deepOrange dark:text-brightRed inline-block"
+      >it's-a me</span
+    >
     <span class="block mt-2 md:inline-block md:pl-4">Burak!</span>
   </h1>
 </template>

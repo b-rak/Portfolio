@@ -2,8 +2,12 @@
   <NuxtLink
     :to="localePath(to)"
     :id="id"
-    :class="{ 'text-[#ff9800]': selected }"
-    class="text-[#cfcfcf] cursor-pointer no-underline hover:text-[#ff9800] font-mono font-bold"
+    :class="[
+      selected
+        ? 'text-[#FF9800] dark:text-[#FF9800]'
+        : 'text-[#333333] dark:text-[#cfcfcf]',
+    ]"
+    class="cursor-pointer no-underline hover:text-[#FF9800] dark:hover:text-[#FF9800] font-mono font-bold"
     >{{ text }}</NuxtLink
   >
 </template>

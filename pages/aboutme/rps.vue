@@ -39,7 +39,7 @@
         :symbol="userSelection"
         :result="true"
       >
-        <div class="text_regular_18 text-brightRed">
+        <div class="text_regular_18 text-deepOrange dark:text-brightRed">
           {{ $t("aboutme.rps.yourSelection") }}
         </div>
       </RpsSymbol>
@@ -48,21 +48,23 @@
         :symbol="meSelection"
         :result="true"
       >
-        <div class="text_regular_18 text-brightRed">
+        <div class="text_regular_18 text-deepOrange dark:text-brightRed">
           {{ $t("aboutme.rps.mySelection") }}
         </div>
       </RpsSymbol>
     </div>
     <div class="text-center">
-      <h3 class="h3_medium_18 text-lightGray">{{ $t("aboutme.rps.score") }}</h3>
-      <div class="text_regular_18 text-lightGray">
+      <h3 class="h3_medium_18 text-darkGray dark:text-lightGray">
+        {{ $t("aboutme.rps.score") }}
+      </h3>
+      <div class="text_regular_18 text-darkGray dark:text-lightGray">
         {{ `${userWin} : ${comWin}` }}
       </div>
     </div>
     <button
       id="btn-play-again"
       @click="displayResult = !displayResult"
-      class="mt-2 text-warmOrange border-2 border-warmOrange rounded-md px-2 py-1 transition-all"
+      class="mt-2 text-warmOrange dark:text-warmOrange border-2 border-warmOrange dark:border-warmOrange rounded-md px-2 py-1 transition-all"
     >
       {{ $t("aboutme.rps.playAgain") }}
     </button>

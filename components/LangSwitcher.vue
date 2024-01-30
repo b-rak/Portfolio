@@ -1,7 +1,7 @@
 <template>
   <button
     @click="changeLocale($event)"
-    class="text-lightGray hover:scale-110"
+    class="text-darkGray dark:text-lightGray hover:scale-110"
     :aria-label="$t('nav.langSwitcher')"
   >
     {{ locale === "de-DE" ? "EN" : "DE" }}

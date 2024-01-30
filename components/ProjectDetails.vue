@@ -32,7 +32,7 @@
               'projects.' + prjKey + '.images.folder'
             )}/${prjKey}_${slide}.png`"
             :alt="`Projekt Bild ${slide}`"
-            class="lg:w-[90%] mx-auto h-[12rem] md:h-[20rem] lg:h-[30rem] flex items-center justify-center text-lightGray"
+            class="lg:w-[90%] mx-auto h-[12rem] md:h-[20rem] lg:h-[30rem] flex items-center justify-center text-darkGray dark:text-lightGray"
           />
         </div>
       </Slide>
@@ -43,7 +43,7 @@
       </template>
     </Carousel>
     <div class="flex justify-between items-center">
-      <h3 class="h2_medium_28 text-lightGray">
+      <h3 class="h2_medium_28 text-darkGray dark:text-lightGray">
         {{ $t("projects." + prjKey + ".title") }}
       </h3>
       <div class="flex gap-4 items-center">
@@ -63,14 +63,14 @@
       </div>
     </div>
     <p
-      class="text-lightGray pr-[5%] text-justify"
+      class="text-darkGray dark:text-lightGray pr-[5%] text-justify"
       v-for="text in $tm('projects.' + prjKey + '.text')"
     >
       {{ $rt(text) }}
     </p>
     <p
       v-if="$t('projects.' + prjKey + '.info')"
-      class="text-lightGray pr-[5%] text-justify"
+      class="text-darkGray dark:text-lightGray pr-[5%] text-justify"
     >
       <strong>{{ $t("projects.currentInfo") }}</strong
       >{{ $t("projects." + prjKey + ".info") }}
@@ -82,7 +82,7 @@
     >
       <div
         v-for="tech in $tm('projects.' + prjKey + '.tech')"
-        class="bg-oliveGreen bg-opacity-50 rounded-md py-1 px-2 text_regular_18 text-lightGray"
+        class="bg-forestGreen dark:bg-oliveGreen bg-opacity-50 rounded-md py-1 px-2 text_regular_18 text-darkGray dark:text-lightGray"
       >
         {{ $rt(tech) }}
       </div>
