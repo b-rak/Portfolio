@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     viewer: true,
   },
   i18n: {
-    baseUrl: "my-happy-page.de",
+    baseUrl: "https://burak-tas.com",
     vueI18n: "./i18n.config.ts", // if you are using custom path, default
     locales: [
       {

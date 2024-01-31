@@ -54,7 +54,7 @@ export default {
       title: "JS Challenges: Advent of JavaScript 2021/22",
       overviewDescription:
         "An advent calendar full of Javascript challenges. Each day contains a different challenge, including challenges such as a timer, a cost-sharing app and a weather app.",
-      github: "github",
+      github: "https://github.com/b-rak/AdventOfJS",
       tech: ["Vanilla JS", "HTML", "CSS"],
       webpage: "https://www.adventofjs.com/",
       text: [
@@ -71,7 +71,7 @@ export default {
       title: "Mastering Nuxt 3",
       overviewDescription:
         "An online course platform, of which the first chapter is freely available. The course can be purchased and thus access to all content can be acquired. Individual chapters can be completed and the course progress is saved.",
-      github: "github",
+      github: "https://github.com/b-rak/Mastering-Nuxt-3",
       tech: ["Nuxt3", "Typescript", "Supabase", "Prisma", "Tailwind", "Stripe"],
       webpage: "https://mas-ter-ing-nuxt-3.netlify.app",
       text: [
