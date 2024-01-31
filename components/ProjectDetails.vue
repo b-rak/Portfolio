@@ -100,10 +100,22 @@ const props = defineProps<{
 </script>
 
 <style>
+.dark .carousel__prev,
+.dark .carousel__next {
+  box-sizing: content-box;
+  color: white;
+}
+
+.dark .carousel__prev:hover,
+.dark .carousel__next:hover {
+  box-sizing: content-box;
+  color: #cfcfcf;
+}
+
 .carousel__prev,
 .carousel__next {
   box-sizing: content-box;
-  color: white;
+  color: black;
 }
 
 .carousel__pagination-button--active::after {
