@@ -37,7 +37,7 @@ export default {
       title: "Nutrient Calculator",
       overviewDescription:
         "A nutrient calculator with which products can be searched through a FoodData API and added to a list. The quantity of products can be specified and the list calculates the sum of the nutritional values of all products on the list.",
-      github: "github",
+      github: "https://github.com/b-rak/NaehrstoffApi",
       tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
       webpage: "",
       text: [

@@ -37,7 +37,7 @@ export default {
       title: "Nährstoff Rechner",
       overviewDescription:
         "Ein Nährstoffrechner mit welchem Produkte durch eine FoodData API gesucht und einer Liste hinzugefügt werden können. Es kann die Menge der Produkte angegeben werden und die Liste berechnet die Summe der Nährwerte aller Produkte auf der Liste.",
-      github: "github",
+      github: "https://github.com/b-rak/NaehrstoffApi",
       tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
       webpage: "",
       text: [
