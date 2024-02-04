@@ -4,49 +4,23 @@
   >
     {{ $t("aboutme.title") }}
   </h1>
-  <div class="flex flex-col lg:flex-row gap-4 mt-4">
-    <div
-      class="w-full lg:w-1/2 p-6 bg-forestGreen dark:bg-oliveGreen bg-opacity-50 rounded-lg shadow_light_5"
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+    <AboutMeSection langKey="general" :index="1"
+      ><a
+        :href="localePath('/aboutme/rps')"
+        class="hover:underline text-orangeBrown dark:text-warmOrange"
+        >Match</a
+      >?</AboutMeSection
     >
-      <h3 class="text-darkGray dark:text-lightGray text-xl font-lato">
-        {{ $t("aboutme.general.title") }}
-      </h3>
-      <ul
-        class="pl-8 list-disc items-center mt-4 marker:text-darkGray dark:marker:text-lightGray marker:text-xl text-darkGray dark:text-lightGray text_regular_18"
-      >
-        <li>{{ $t("aboutme.general.born") }}</li>
-        <li>
-          <p>
-            {{ $t("aboutme.general.studies[0]") }}
-          </p>
-          <div
-            class="w-8 h-1 bg-darkGray dark:bg-lightGray mx-auto my-2 rounded-md"
-          ></div>
-          <p>{{ $t("aboutme.general.studies[1]") }}</p>
-          <div
-            class="w-8 h-1 bg-darkGray dark:bg-lightGray mx-auto my-2 rounded-md"
-          ></div>
-          <p>{{ $t("aboutme.general.studies[2]") }}</p>
-        </li>
-        <li>{{ $t("aboutme.general.hobbies") }}</li>
-        <li>
-          {{ $t("aboutme.general.random") }}
-          <a
-            :href="localePath('/aboutme/rps')"
-            class="hover:underline text-warmOrange dark:text-warmOrange"
-            >Match</a
-          >?
-        </li>
-        <li>{{ $t("aboutme.general.animals") }}</li>
-      </ul>
-    </div>
+
     <div
-      class="w-full lg:w-1/2 p-6 bg-lightCharcoal dark:bg-darkCharcoal rounded-lg shadow_light_4"
+      class="p-6 bg-lightCharcoal dark:bg-darkCharcoal rounded-lg shadow_light_4"
     >
       <h3 class="text-darkGray dark:text-lightGray text-xl font-lato">
         Skills
       </h3>
-      <ul class="mt-4 rounded-md p-4 text_regular_18">
+      <ul class="rounded-md p-4 text_regular_18">
         <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
           <FAIcon iconPrefix="fas" iconName="code" iconWidth="w-6" />
           {{ $t("aboutme.skills[0]") }}
@@ -85,6 +59,9 @@
         </li>
       </ul>
     </div>
+
+    <AboutMeSection langKey="education" :index="3" />
+    <AboutMeSection langKey="certificates" :index="4" />
   </div>
 </template>
 

@@ -39,7 +39,7 @@
         :symbol="userSelection"
         :result="true"
       >
-        <div class="text_regular_18 text-deepOrange dark:text-brightRed">
+        <div class="text_regular_18 text-deepRed dark:text-brightRed">
           {{ $t("aboutme.rps.yourSelection") }}
         </div>
       </RpsSymbol>
@@ -48,7 +48,7 @@
         :symbol="meSelection"
         :result="true"
       >
-        <div class="text_regular_18 text-deepOrange dark:text-brightRed">
+        <div class="text_regular_18 text-deepRed dark:text-brightRed">
           {{ $t("aboutme.rps.mySelection") }}
         </div>
       </RpsSymbol>
@@ -64,7 +64,7 @@
     <button
       id="btn-play-again"
       @click="displayResult = !displayResult"
-      class="mt-2 text-warmOrange dark:text-warmOrange border-2 border-warmOrange dark:border-warmOrange rounded-md px-2 py-1 transition-all"
+      class="mt-2 text-orangeBrown dark:text-warmOrange border-2 border-orangeBrown dark:border-warmOrange rounded-md px-2 py-1 transition-all"
     >
       {{ $t("aboutme.rps.playAgain") }}
     </button>
@@ -73,6 +73,10 @@
 
 <style>
 #btn-play-again:hover {
+  box-shadow: 0 0 10px 0 #855000 inset, 0 0 10px 1px #855000;
+}
+
+.dark #btn-play-again:hover {
   box-shadow: 0 0 10px 0 #ff9800 inset, 0 0 10px 1px #ff9800;
 }
 </style>
@@ -147,4 +151,8 @@ const determineWinner = (selected: string, computer: string) => {
   if (path.includes("en-GB") && winner === "Du") winner = "You";
   return winner;
 };
+
+definePageMeta({
+  title: "RPS Game",
+});
 </script>
