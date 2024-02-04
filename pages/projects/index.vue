@@ -13,16 +13,10 @@ definePageMeta({
 });
 const projects = [
   {
-    tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
-    image: "/images/naehrstoffrechner/naehrstoffe_1.png",
-    path: "nutrition-calculator",
-    prjKey: "naehrstoffe",
-  },
-  {
-    tech: ["Vanilla JS", "HTML", "CSS"],
-    image: "/images/adventofjs.png",
-    path: "js-challenges",
-    prjKey: "jsChallenges",
+    tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
+    image: "/images/dashboard/newDashboard_2.png",
+    path: "new-dashboard",
+    prjKey: "newDashboard",
   },
   {
     tech: ["Nuxt3", "Typescript", "Supabase", "Prisma", "Tailwind"],
@@ -31,10 +25,16 @@ const projects = [
     prjKey: "masteringNuxt",
   },
   {
-    tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
-    image: "/images/dashboard/newDashboard_2.png",
-    path: "new-dashboard",
-    prjKey: "newDashboard",
+    tech: ["Vanilla JS", "HTML", "CSS"],
+    image: "/images/adventofjs.png",
+    path: "js-challenges",
+    prjKey: "jsChallenges",
+  },
+  {
+    tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
+    image: "/images/naehrstoffrechner/naehrstoffe_1.png",
+    path: "nutrition-calculator",
+    prjKey: "naehrstoffe",
   },
 ];
 </script>

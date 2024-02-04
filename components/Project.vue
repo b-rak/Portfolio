@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex flex-col gap-4 px-0">
     <h2
-      class="h2_medium_28 text-darkGray dark:text-lightGray border-b-2 border-b-warmOrange dark:border-b-warmOrange ml-[25%]"
+      class="h2_medium_28 text-darkGray dark:text-lightGray border-b-2 border-b-orangeBrown dark:border-b-warmOrange ml-[25%]"
     >
       {{ $t("projects." + project.prjKey + ".title") }}
     </h2>
@@ -24,7 +24,7 @@
         />
       </div>
       <div
-        class="p-6 bg-lightCharcoal dark:bg-darkCharcoal rounded-lg shadow_light_4 w-full min-h-[13.5rem] min-[1340px]:absolute min-[1340px]:pl-[45rem] min-[1340px]:max-h-[21rem] cursor-pointer"
+        class="p-6 bg-lightCharcoal dark:bg-darkCharcoal rounded-lg shadow_light_4 w-full md:min-h-[13.5rem] min-[1340px]:absolute min-[1340px]:pl-[45rem] min-[1340px]:max-h-[21rem] cursor-pointer"
         @click="goToDetails()"
         @mouseover="hover = true"
         @mouseout="hover = false"
@@ -43,7 +43,7 @@
         <div
           aria-role="list"
           aria-label="Liste eingesetzter Technologien"
-          class="flex gap-4 flex-wrap mt-2 min-[1340px]:absolute"
+          class="flex gap-4 flex-wrap mt-4 min-[1340px]:absolute min-[1340px]:-bottom-4"
         >
           <div
             v-for="tech in project.tech"

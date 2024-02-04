@@ -15,9 +15,6 @@
 </template>
 
 <script lang="ts" setup>
-definePageMeta({
-  middleware: "projects",
-});
 const localePath = useLocalePath();
 
 const route = useRoute();
@@ -28,5 +25,10 @@ const prjKey = computed(() => {
   else if (param === "mastering-nuxt-3") return "masteringNuxt";
   else if (param === "new-dashboard") return "newDashboard";
   else return "";
+});
+
+definePageMeta({
+  middleware: "projects",
+  title: "Projectdetails",
 });
 </script>

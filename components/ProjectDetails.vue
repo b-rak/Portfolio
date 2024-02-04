@@ -119,14 +119,31 @@ const props = defineProps<{
 }
 
 .carousel__pagination-button--active::after {
+  background-color: #855000;
+  opacity: 1 !important;
+}
+
+.carousel__pagination-button::after {
+  background-color: #855000;
+  opacity: 0.2;
+}
+
+.carousel__pagination-button:hover::after {
+  background-color: #855000 !important;
+  opacity: 1;
+}
+
+.dark .carousel__pagination-button--active::after {
   background-color: #ff9800;
   opacity: 1 !important;
 }
-.carousel__pagination-button::after {
+
+.dark .carousel__pagination-button::after {
   background-color: #ff9800;
   opacity: 0.2;
 }
-.carousel__pagination-button:hover::after {
+
+.dark .carousel__pagination-button:hover::after {
   background-color: #ff9800 !important;
   opacity: 1;
 }
