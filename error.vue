@@ -4,7 +4,7 @@
   >
     <div class="flex flex-col items-center gap-8">
       <div v-if="error.statusCode === 404" class="flex flex-col items-center">
-        <h1 class="font-lato text-[5rem] text-deepOrange dark:text-brightRed">
+        <h1 class="font-lato text-[5rem] text-deepRed dark:text-brightRed">
           404
         </h1>
         <p class="text_regular_18 text-darkGray dark:text-lightGray">
@@ -12,7 +12,7 @@
         </p>
       </div>
       <div v-else class="flex flex-col items-center">
-        <h1 class="font-lato text-[5rem] text-deepOrange dark:text-brightRed">
+        <h1 class="font-lato text-[5rem] text-deepRed dark:text-brightRed">
           {{ error.statusCode }}
         </h1>
         <p class="text_regular_18 text-darkGray dark:text-lightGray">
@@ -31,7 +31,7 @@
         <p class="text_regular_18 text-darkGray dark:text-lightGray">
           {{ $t("error.backTo") }}
           <a
-            class="text-warmOrange dark:text-warmOrange underline hover:cursor-pointer"
+            class="text-orangeBrown dark:text-warmOrange underline hover:cursor-pointer"
             @click="navigateTo(localePath('/'))"
           >
             {{ $t("error.button") }}
@@ -42,7 +42,34 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 const error = useError();
 const localePath = useLocalePath();
+
+const userPreference = getUserPreference();
+const colorMode = getAppliedMode(userPreference);
+const darkMode = ref(colorMode === "dark");
+if (darkMode.value) {
+  (document.querySelector("html") as HTMLElement).classList.add("dark");
+}
+</script>
+
+<script lang="ts">
+function getUserPreference() {
+  return localStorage.getItem("theme") || "system";
+}
+
+function getAppliedMode(userPreference: string) {
+  if (userPreference === "light") {
+    return "light";
+  }
+  if (userPreference === "dark") {
+    return "dark";
+  }
+  // system
+  if (matchMedia("(prefers-color-scheme:dark)").matches) {
+    return "dark";
+  }
+  return "light";
+}
 </script>
