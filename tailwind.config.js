@@ -14,10 +14,10 @@ export default {
         /** Light Mode */
         lightCharcoal: '#F5F5F5' /** light gray / container bg */,
         lightGray: '#E0E0E0' /** light gray / page bg */,
-        /**warmOrange: '#FF9800' */ /** orange / navigation elements; alternatively: coolBlue: '#2196F3' blue / navigation elements */
+        orangeBrown: '#855000',  /** orange-brown / navigation elements; alternatively: coolBlue: '#2196F3' blue / navigation elements */
         darkGray: '#333333' /** dark gray / neutral color for text */,
         forestGreen: '#2E7D32' /** dark green */,
-        deepOrange: '#FF5722' /** deep orange / for emphasis */,
+        deepRed: '#BD2C00' /** deep red / for emphasis */,
       },
     },
     fontFamily: {
