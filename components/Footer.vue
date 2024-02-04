@@ -7,7 +7,7 @@
   </p>
   <div class="py-5 flex justify-center items-center gap-4 w-screen relative">
     <div
-      class="h-1 w-20 bg-warmOrange dark:bg-warmOrange rounded-md"
+      class="h-1 w-20 bg-orangeBrown dark:bg-warmOrange rounded-md"
       aria-role="decorative horizontal line element"
     ></div>
     <LinkIcon
@@ -21,7 +21,7 @@
       to="https://www.linkedin.com/in/burak-tas-083037266"
     />
     <div
-      class="h-1 w-20 bg-warmOrange dark:bg-warmOrange rounded-md"
+      class="h-1 w-20 bg-orangeBrown dark:bg-warmOrange rounded-md"
       aria-role="decorative horizontal line element"
     ></div>
   </div>

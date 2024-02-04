@@ -4,10 +4,10 @@
     :id="id"
     :class="[
       selected
-        ? 'text-[#FF9800] dark:text-[#FF9800]'
+        ? 'text-[#855000] dark:text-[#FF9800]'
         : 'text-[#333333] dark:text-[#cfcfcf]',
     ]"
-    class="cursor-pointer no-underline hover:text-[#FF9800] dark:hover:text-[#FF9800] font-mono font-bold"
+    class="cursor-pointer no-underline hover:text-[#855000] dark:hover:text-[#FF9800] font-mono font-bold"
     >{{ text }}</NuxtLink
   >
 </template>

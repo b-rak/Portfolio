@@ -4,14 +4,14 @@
       :icon="['fas', 'moon']"
       id="moon"
       @click="toggle()"
-      class="text-warmOrange dark:text-warmOrange cursor-pointer w-5 absolute"
+      class="text-orangeBrown dark:text-warmOrange cursor-pointer w-5 absolute"
       :class="{ 'translate-y-8 opacity-0 pointer-events-none': !darkMode }"
     />
     <font-awesome-icon
       :icon="['far', 'sun']"
       id="sun"
       @click="toggle()"
-      class="text-warmOrange dark:text-warmOrange cursor-pointer absolute w-6"
+      class="text-orangeBrown dark:text-warmOrange cursor-pointer absolute w-6"
       :class="{ 'translate-y-8 opacity-0 pointer-events-none': darkMode }"
     />
   </div>
