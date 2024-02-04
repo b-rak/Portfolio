@@ -88,17 +88,17 @@ export default {
       },
     },
     newDashboard: {
-      title: "Dashboard",
+      title: "End-to-End Monitoring Dashboard",
       overviewDescription:
-        "Ein neues Frontend für ein Dashboard. Kunden können ihr Software monitoren und ihre Testergebnisse auf dem Dashboard einsehen. Dabei gibt es verschiedene Charts, die die Ergebnisse zusammenfassen. Des Weiteren können sie Details wie Screenshots oder Videos einsehen.",
+        "Ein neues Frontend für ein Dashboard. Kunden können ihre Software monitoren und ihre Testergebnisse auf dem Dashboard einsehen. Dabei gibt es verschiedene Charts, die die Ergebnisse zusammenfassen. Des Weiteren können sie Details wie Screenshots oder Videos einsehen.",
       github: "",
       tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
       webpage: "",
       text: [
-        "Dieses Projekt ist ein internes Projekt bei meinem jetzigen Arbeitgeber. Dabei geht es um die Entwicklung eines neuen Dashboards für einen Service von uns. Das Team bestand im Wesentlichen aus zwei Designerinnen, einem Backendler und mir, wobei ich neben der Frontend Entwicklung auch noch das Projekt leite. Das bedeutet zu Beginn des Projektes wurde es auf Jira geplant: Stories wurden geschrieben und zeitlich geschätzt. Somit wurde das Projekt sowohl zeitlich als auch ressourcentechnisch geplant. Es gab einen regelmäßigen Austausch mit den operativ Beteiligten und monatliche Updates an Vorgesetzte und das Produktmanagement.",
-        "Das Frontend habe ich in Nuxt3 mit Typescript und Tailwind entwickelt. Für alle Charts habe ich die Library Chartjs verwendet. Das Backend wurde mit Springboot zusammen mit einer MariaDB entwickelt.",
+        "Dieses Projekt ist ein internes Projekt bei meinem jetzigen Arbeitgeber. Dabei geht es um die Entwicklung eines neuen Dashboards für einen Service von uns. Das Team bestand im Wesentlichen aus zwei Designerinnen, einem Backendler und mir, wobei ich neben der Frontend Entwicklung auch noch das Projekt leite. Projekt Kick-Off war im April 2023 und zu Beginn wurde das Projekt auf Jira geplant: Stories wurden geschrieben und zeitlich geschätzt. Somit wurde das Projekt sowohl zeitlich als auch ressourcentechnisch geplant. Es gab einen regelmäßigen Austausch mit den operativ Beteiligten und monatliche Updates an Vorgesetzte und das Produktmanagement.",
+        "Das Frontend habe ich in Nuxt3 mit Typescript und Tailwind entwickelt. Dabei habe ich die Designs aus Figma umgesetzt. Für alle Charts habe ich die Library Chartjs verwendet. Das Backend wurde mit Springboot zusammen mit einer MariaDB entwickelt.",
         "Die Nutzer können sich einloggen und sehen auf der Startseite Zusammenfassungen der Testergebnisse des letzten Monats. Zudem werden die aktuellsten Testergebnisse angezeigt, so dass schnell eine Beurteilung des aktuellen Zustands des Systems getroffen werden kann. Auf der Testfallübersichtsseite sehen die einzelnen Testcases je Gruppe mit den letzten Testergebnissen angezeit in einem Säulendiagramm. Durch Klicken eines Testcases gelangen sie zu der Detailseite, auf welcher die einzelnen Testmethoden mit den letzten Testergebnissen aufgelistet werden. Hier sind genaue Details zu den Testruns, wie warum der Test fehlgeschlagen ist oder Screenshots und Videos, einsehbar. Des Weiteren kann der Nutzer seine Testergebnisse als csv-Datei exportieren und für interne Auswertungen verwenden.",
-        "Aktuell im Fokus ist es die Kunden langsamen onzuboarden und den MVP zu vertesten. Es soll Feedback per Fragebogen und vereinzelten Interviews eingeholt werden. Nach Auswertung des Feedbacks soll der MVP entsprechend weiterentwickelt werden.",
+        "Aktuell im Fokus ist es die Kunden langsam onzuboarden und den MVP zu vertesten. Es soll Feedback per Fragebogen und vereinzelten Interviews eingeholt werden. Nach Auswertung des Feedbacks soll der MVP entsprechend weiterentwickelt werden.",
         "Neben dem Feedback fehlt noch die Entwicklung des Profilbereichs, in welchem die Nutzer Daten wie Passwort ändern oder Benachrichtigungseinstellungen vornehmen können.",
       ],
       info: "Leider kann ich aktuell keinen Link zum Github Code oder einer deployten Version des Dashboards teilen, da dies mit meinem jetzigen Arbeitgeber noch nicht geklärt ist.",
@@ -123,7 +123,7 @@ export default {
       time: "01/2021 - 07/2022 bei ",
       tasks: [
         "Erstellung und Automatisierung von Testfällen für Webseiten (Desktop) und mobile Apps (iOS/Android)",
-        "Betreeung von Werkstudenten inkl. CodeReview",
+        "Betreuung von Werkstudenten inkl. CodeReview",
         "Betreuung Kundenprojekte verschiedenster Branchen z.B. Rundfunk, Verkehr, e-Commerce",
         "Erfahrung mit diversen Frameworks/Tools gesammelt, z.B. Selenium, Appium, Playwright, TestNG, ExtentReport, Gitlab, Jenkins",
       ],
@@ -140,8 +140,9 @@ export default {
     innovation: {
       time: "03/2023 - heute bei ",
       tasks: [
-        "Durchführung Interviews mit Fokus auf Automatisierungsthemen",
-        "Entwerfung Prototyp und konkrete Umsetzung",
+        "Entwicklung neuer und Weiterentwicklung bestehender Services mit Fokus auf Automatisierung",
+        "Durchführung Interviews zur Problemidentifikation unserer Kunden",
+        "Problemlösung durch Entwerfung Prototyp und konkreter Umsetzung",
         "Projekte: Automatische Erstellung einer Testautomatisierungsinfrastruktur (verworfen), Automatisiertes Accessiblity Testing, Neues Frontend für ein Dashboard eines internen Services",
       ],
     },
@@ -150,17 +151,13 @@ export default {
     title: "Über Mich",
     general: {
       title: "Allgemeines",
-      born: "Geboren am 05.11.1993 in Mönchengladbach; seit 2013 in Köln",
-      studies: [
-        "Studium B.Sc. Mathematik (2013-2017) und B.Sc. Chemie (2013-2017) an der Universität zu Köln -> Ja, ich habe 2 Vollzeitstudiengänge parallel studiert (empfehle ich nicht weiter :D)",
-        "Studium M.Sc. Mathematik (2017-2020) an der Universität zu Köln",
-        "Erasmus Auslandssemester im Jahre 2018 in Budapest",
-      ],
-      hobbies:
+      text: [
+        "Geboren am 05.11.1993 in Mönchengladbach",
+        "Seit 2013 wohnhaft in Köln",
         "Freizeit: Lesen, Unterwegs, analoge Fotografie, Nintendo Switch",
-      random:
+        "Haustiere: bald eine Wasserschildkröte :)",
         'Random Info: bei "Schere, Stein oder Papier" nehme ich immer zuerst Stein. Lust auf ein ',
-      animals: "Haustiere: bald eine Wasserschildkröte :)",
+      ],
     },
     skills: [
       "Programmiersprachen: JS/TS, Python, Java",
@@ -173,6 +170,22 @@ export default {
       "Docker (Basics)",
       "Linux/Shell: Standard Linux Commands und Basic Shellscripting",
     ],
+    education: {
+      title: "Ausbildung",
+      text: [
+        "Studium B.Sc. Mathematik (2013-2017) und B.Sc. Chemie (2013-2017) an der Universität zu Köln -> Ja, ich habe 2 Vollzeitstudiengänge parallel studiert (empfehle ich nicht weiter :D)",
+        "Studium M.Sc. Mathematik (2017-2020) an der Universität zu Köln",
+        "Erasmus Auslandssemester im Jahre 2018 in Budapest",
+      ],
+    },
+    certificates: {
+      title: "Zertifikate",
+      text: [
+        "Mastering Nuxt 3 Course (2023)",
+        "Complete Javascript Masterclass (2022)",
+        "ISTQB Certified Tester Foundation Level (CT-FL) (2020)",
+      ],
+    },
     rps: {
       backButton: "Zurück zu Über Mich",
       selectHeading: "Wähle ein Symbol aus",

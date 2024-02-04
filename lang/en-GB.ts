@@ -1,7 +1,7 @@
 export default {
   layouts_title: "Burak Tas - {title}",
   nav: {
-    landing: "Landing Page",
+    landing: "Home",
     experience: "Experience",
     projects: "Coding Projects",
     aboutme: "About Me",
@@ -88,15 +88,15 @@ export default {
       },
     },
     newDashboard: {
-      title: "Dashboard",
+      title: "End-to-End Monitoring Dashboard",
       overviewDescription:
         "A new front end for a dashboard. Customers can monitor their software and view their test results on the dashboard. There are various charts that summarize the results. They can also view details such as screenshots or videos.",
       github: "",
       tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
       webpage: "",
       text: [
-        "This project is an internal project at my current employer. It involves the development of a new dashboard for one of our services. The team essentially consisted of two designers, a backend developer and myself, whereby I also managed the project in addition to front-end development. This means that the project was planned in Jira at the beginning: Stories were written and estimated in terms of time. This meant that the project was planned both in terms of time and resources. There was a regular exchange with the operational team members and monthly updates to superiors and the product management team.",
-        "I developed the frontend in Nuxt3 with Typescript and Tailwind. I used the Chartjs library for all the charts. The backend was developed with Springboot together with a MariaDB.",
+        "This project is an internal project at my current employer. It involves the development of a new dashboard for one of our services. The team essentially consisted of two designers, a backend developer and myself, whereby I also managed the project in addition to front-end development. Project kick-off was in April 2023 and at the beginning the project was planned on Jira: Stories were written and estimated in terms of time. This meant that the project was planned both in terms of time and resources. There was a regular exchange with the operational team members and monthly updates to superiors and the product management team.",
+        "I developed the frontend in Nuxt3 with Typescript and Tailwind, whereby I implemented the designs from Figma. I used the Chartjs library for all the charts. The backend was developed with Springboot together with a MariaDB.",
         "Users can log in and see summaries of the last month's test results on the dashboard page. In addition, the most recent test results are displayed so that an evaluation of the current state of the system can be made quickly. On the test case overview page, you can see the individual test cases per group with the latest test results displayed in a bar chart. Clicking on a test case takes you to the details page, where the individual test methods are listed with the latest test results. Here you can see exact details of the test runs, such as why the test failed or screenshots and videos. Users can also export their test results as a csv file and use them for internal evaluations.",
         "The current focus is on slowly onboarding customers and testing the MVP. Feedback is to be obtained via questionnaires and several individual interviews. After evaluating the feedback, the MVP will be further developed accordingly.",
         "In addition to the feedback, the development of the profile area, in which users can change data such as passwords or notification settings, is still missing.",
@@ -140,8 +140,9 @@ export default {
     innovation: {
       time: "03/2023 - present at ",
       tasks: [
-        "Conducting interviews with a focus on automation topics",
-        "Designing prototype and concrete implementation",
+        "Development of new and further development of existing services with a focus on automation",
+        "Conducting interviews to identify our customers' problems",
+        "Problem solving through prototype design and concrete implementation",
         "Projects: Automatic creation of a test automation infrastructure (rejected), Automated accessibility testing, New front end for a dashboard of an internal service",
       ],
     },
@@ -150,17 +151,13 @@ export default {
     title: "About Me",
     general: {
       title: "General",
-      born: "Born on 05.11.1993 in Mönchengladbach; since 2013 in Cologne",
-      studies: [
-        "Studied B.Sc. Mathematics (2013-2017) and B.Sc. Chemistry (2013-2017) at the University of Cologne -> Yes, I studied 2 full-time degree programs in parallel (I do not recommend it :D)",
-        "Studied M.Sc. Mathematics (2017-2020) at the University of Cologne",
-        "Erasmus semester abroad in Budapest in 2018",
-      ],
-      hobbies:
+      text: [
+        "Born on 05.11.1993 in Mönchengladbach",
+        "Resident in Cologne since 2013",
         "Free time: reading, being outdoors, analog photography, Nintendo Switch",
-      random:
+        "Pets: soon an aquatic turtle :)",
         'Random info: when it comes to "rock, paper or scissors", I always go for rock first. Fancy a ',
-      animals: "Pets: soon an aquatic turtle :)",
+      ],
     },
     skills: [
       "Programming languages: JS/TS, Python, Java",
@@ -173,6 +170,22 @@ export default {
       "Docker (Basics)",
       "Linux/Shell: Standard Linux Commands and Basic Shellscripting",
     ],
+    education: {
+      title: "Education",
+      text: [
+        "Studied B.Sc. Mathematics (2013-2017) and B.Sc. Chemistry (2013-2017) at the University of Cologne -> Yes, I studied 2 full-time degree programs in parallel (I do not recommend it :D)",
+        "Studied M.Sc. Mathematics (2017-2020) at the University of Cologne",
+        "Erasmus semester abroad in Budapest in 2018",
+      ],
+    },
+    certificates: {
+      title: "Certificates",
+      text: [
+        "Mastering Nuxt 3 Course (2023)",
+        "Complete Javascript Masterclass (2022)",
+        "ISTQB Certified Tester Foundation Level (CT-FL) (2020)",
+      ],
+    },
     rps: {
       backButton: "Back to About Me",
       selectHeading: "Select a symbol",
