@@ -11,7 +11,7 @@
     >
       <button
         v-for="i in 4"
-        class="button_semibold_18 no-underline hover:text-[#A4ACCC] dark:hover:text-[#8892B0] after:block after:content-[''] after:border-b-[0.188rem] after:border-b-deepOrange dark:after:border-b-brightRed after:scale-x-0 after:transition after:ease-in-out after:duration-[250ms]"
+        class="button_semibold_18 no-underline hover:text-[#A4ACCC] dark:hover:text-[#8892B0] after:block after:content-[''] after:border-b-[0.188rem] after:border-b-deepRed dark:after:border-b-brightRed after:scale-x-0 after:transition after:ease-in-out after:duration-[250ms]"
         :class="{
           'after:scale-x-100 after:origin-[0%_50%] !text-darkGray dark:!text-lightGray':
             selected === i,
@@ -64,7 +64,7 @@
       >
         <div
           v-for="skill in jobs[i - 1].skills"
-          class="bg-forestGreen dark:bg-oliveGreen rounded-md py-1 px-2 text_regular_18"
+          class="bg-forestGreen dark:bg-oliveGreen rounded-md py-1 px-2 text_regular_18 bg-opacity-50 text-darkGray dark:text-lightGray"
         >
           {{ skill }}
         </div>
@@ -96,11 +96,27 @@ const selected = ref(1);
 
 const jobs = [
   {
-    title: "Lead QA Tester",
+    title: "Senior Innovation Engineer",
     employer: "Appmatics",
     employerHomepage: "https://www.appmatics.com/de/",
-    skills: ["Jira", "Confluence", "Testrail", "ISTQB Foundation Level"],
-    key: "tester",
+    skills: [
+      "JavaScript/TypeScript",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "Nuxt.js",
+      "Netlify",
+      "Basic Shell Scripting",
+      "Accessiblity Testing",
+    ],
+    key: "innovation",
+  },
+  {
+    title: "Senior Automation Engineer",
+    employer: "Appmatics",
+    employerHomepage: "https://www.appmatics.com/de/",
+    skills: ["Robot", "Python", "Allure"],
+    key: "seniorAutomation",
   },
   {
     title: "Automation Engineer",
@@ -121,27 +137,11 @@ const jobs = [
     key: "automation",
   },
   {
-    title: "Senior Automation Engineer",
+    title: "Lead QA Tester",
     employer: "Appmatics",
     employerHomepage: "https://www.appmatics.com/de/",
-    skills: ["Robot", "Python", "Allure"],
-    key: "seniorAutomation",
-  },
-  {
-    title: "Senior Innovation Engineer",
-    employer: "Appmatics",
-    employerHomepage: "https://www.appmatics.com/de/",
-    skills: [
-      "JavaScript/TypeScript",
-      "HTML",
-      "CSS",
-      "Tailwind",
-      "Nuxt.js",
-      "Netlify",
-      "Basic Shell Scripting",
-      "Accessiblity Testing",
-    ],
-    key: "innovation",
+    skills: ["Jira", "Confluence", "Testrail", "ISTQB Foundation Level"],
+    key: "tester",
   },
 ];
 
