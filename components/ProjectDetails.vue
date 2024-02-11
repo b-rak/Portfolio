@@ -73,7 +73,7 @@
       class="text-darkGray dark:text-lightGray pr-[5%] text-justify"
     >
       <strong>{{ $t("projects.currentInfo") }}</strong
-      >{{ $t("projects." + prjKey + ".info") }}
+      >{{ decodeURIComponent($t("projects." + prjKey + ".info")) }}
     </p>
     <div
       aria-role="list"

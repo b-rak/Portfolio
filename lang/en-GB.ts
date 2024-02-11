@@ -91,9 +91,9 @@ export default {
       title: "End-to-End Monitoring Dashboard",
       overviewDescription:
         "A new front end for a dashboard. Customers can monitor their software and view their test results on the dashboard. There are various charts that summarize the results. They can also view details such as screenshots or videos.",
-      github: "",
+      github: "https://github.com/b-rak/e2e_dashboard",
       tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
-      webpage: "",
+      webpage: "https://e2e-dashboard.netlify.app",
       text: [
         "This project is an internal project at my current employer. It involves the development of a new dashboard for one of our services. The team essentially consisted of two designers, a backend developer and myself, whereby I also managed the project in addition to front-end development. Project kick-off was in April 2023 and at the beginning the project was planned on Jira: Stories were written and estimated in terms of time. This meant that the project was planned both in terms of time and resources. There was a regular exchange with the operational team members and monthly updates to superiors and the product management team.",
         "I developed the frontend in Nuxt3 with Typescript and Tailwind, whereby I implemented the designs from Figma. I used the Chartjs library for all the charts. The backend was developed with Springboot together with a MariaDB.",
@@ -101,7 +101,7 @@ export default {
         "The current focus is on slowly onboarding customers and testing the MVP. Feedback is to be obtained via questionnaires and several individual interviews. After evaluating the feedback, the MVP will be further developed accordingly.",
         "In addition to the feedback, the development of the profile area, in which users can change data such as passwords or notification settings, is still missing.",
       ],
-      info: "Unfortunately, I can't share a link to the Github code or a deployed version of the dashboard at the moment, as this has not yet been clarified with my current employer.",
+      info: "Linked is a demo version of the dashboard. The 'Dashboard', 'Testfälle' and 'Testfalldetails' areas are currently ready, although the 'Testfälle' page takes a long time to load. The problem has been identified in the backend and will be fixed soon. The login details are as follows: Mail: demo%40mail.de; PW: JZecn%40ug$K",
       images: {
         numberOfImages: "6",
         folder: "dashboard",

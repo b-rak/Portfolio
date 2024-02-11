@@ -91,9 +91,9 @@ export default {
       title: "End-to-End Monitoring Dashboard",
       overviewDescription:
         "Ein neues Frontend für ein Dashboard. Kunden können ihre Software monitoren und ihre Testergebnisse auf dem Dashboard einsehen. Dabei gibt es verschiedene Charts, die die Ergebnisse zusammenfassen. Des Weiteren können sie Details wie Screenshots oder Videos einsehen.",
-      github: "",
+      github: "https://github.com/b-rak/e2e_dashboard",
       tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
-      webpage: "",
+      webpage: "https://e2e-dashboard.netlify.app",
       text: [
         "Dieses Projekt ist ein internes Projekt bei meinem jetzigen Arbeitgeber. Dabei geht es um die Entwicklung eines neuen Dashboards für einen Service von uns. Das Team bestand im Wesentlichen aus zwei Designerinnen, einem Backendler und mir, wobei ich neben der Frontend Entwicklung auch noch das Projekt leite. Projekt Kick-Off war im April 2023 und zu Beginn wurde das Projekt auf Jira geplant: Stories wurden geschrieben und zeitlich geschätzt. Somit wurde das Projekt sowohl zeitlich als auch ressourcentechnisch geplant. Es gab einen regelmäßigen Austausch mit den operativ Beteiligten und monatliche Updates an Vorgesetzte und das Produktmanagement.",
         "Das Frontend habe ich in Nuxt3 mit Typescript und Tailwind entwickelt. Dabei habe ich die Designs aus Figma umgesetzt. Für alle Charts habe ich die Library Chartjs verwendet. Das Backend wurde mit Springboot zusammen mit einer MariaDB entwickelt.",
@@ -101,7 +101,7 @@ export default {
         "Aktuell im Fokus ist es die Kunden langsam onzuboarden und den MVP zu vertesten. Es soll Feedback per Fragebogen und vereinzelten Interviews eingeholt werden. Nach Auswertung des Feedbacks soll der MVP entsprechend weiterentwickelt werden.",
         "Neben dem Feedback fehlt noch die Entwicklung des Profilbereichs, in welchem die Nutzer Daten wie Passwort ändern oder Benachrichtigungseinstellungen vornehmen können.",
       ],
-      info: "Leider kann ich aktuell keinen Link zum Github Code oder einer deployten Version des Dashboards teilen, da dies mit meinem jetzigen Arbeitgeber noch nicht geklärt ist.",
+      info: "Verlinkt ist eine Demo Version des Dashboards. Aktuell sind die Bereiche 'Dashboard', 'Testfälle' und 'Testfalldetails' fertig, wobei die Testfallseit eine lange Ladezeit hat. Das Problem konnte beim Backend identifiziert werden und wird zeitnah behoben. Die Logindaten sind die folgenden: Mail: demo%40mail.de; PW: JZecn%40ug$K",
       images: {
         numberOfImages: "6",
         folder: "dashboard",
