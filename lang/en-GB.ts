@@ -101,7 +101,7 @@ export default {
         "The current focus is on slowly onboarding customers and testing the MVP. Feedback is to be obtained via questionnaires and several individual interviews. After evaluating the feedback, the MVP will be further developed accordingly.",
         "In addition to the feedback, the development of the profile area, in which users can change data such as passwords or notification settings, is still missing.",
       ],
-      info: "Linked is a demo version of the dashboard. The 'Dashboard', 'Testfälle' and 'Testfalldetails' areas are currently ready, although the 'Testfälle' page takes a long time to load. The problem has been identified in the backend and will be fixed soon. The login details are as follows: Mail: demo%40mail.de; PW: JZecn%40ug$K",
+      info: "Linked is a demo version of the dashboard. The 'Dashboard', 'Testfälle' and 'Testfalldetails' areas are currently ready. The login details are as follows: Mail: demo%40mail.de; PW: JZecn%40ug$K",
       images: {
         numberOfImages: "6",
         folder: "dashboard",
