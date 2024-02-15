@@ -101,7 +101,7 @@ export default {
         "Aktuell im Fokus ist es die Kunden langsam onzuboarden und den MVP zu vertesten. Es soll Feedback per Fragebogen und vereinzelten Interviews eingeholt werden. Nach Auswertung des Feedbacks soll der MVP entsprechend weiterentwickelt werden.",
         "Neben dem Feedback fehlt noch die Entwicklung des Profilbereichs, in welchem die Nutzer Daten wie Passwort ändern oder Benachrichtigungseinstellungen vornehmen können.",
       ],
-      info: "Verlinkt ist eine Demo Version des Dashboards. Aktuell sind die Bereiche 'Dashboard', 'Testfälle' und 'Testfalldetails' fertig. Die Logindaten sind die folgenden: Mail: demo%40mail.de; PW: JZecn%40ug$K",
+      info: "Verlinkt ist eine Demo Version des Dashboards. Aktuell sind die Bereiche 'Dashboard', 'Testfälle' und 'Testfalldetails' fertig, wobei jedoch momentan im Backend ein Fehler besteht, wodurch keine Testergebnisse mehr angezeigt werden. Der Fehler wird am Freitag 16.02. behoben. Die Logindaten sind die folgenden: Mail: demo%40mail.de; PW: JZecn%40ug$K",
       images: {
         numberOfImages: "6",
         folder: "dashboard",
@@ -143,7 +143,7 @@ export default {
         "Entwicklung neuer und Weiterentwicklung bestehender Services mit Fokus auf Automatisierung",
         "Durchführung Interviews zur Problemidentifikation unserer Kunden",
         "Problemlösung durch Entwerfung Prototyp und konkreter Umsetzung",
-        "Projekte: Automatische Erstellung einer Testautomatisierungsinfrastruktur (verworfen), Automatisiertes Accessiblity Testing, Neues Frontend für ein Dashboard eines internen Services",
+        "Projekte: Automatische Erstellung einer Testautomatisierungsinfrastruktur (verworfen), Automatisiertes Accessiblity Testing, Neues Frontend für ein Dashboard eines internen Services (s. Coding Projekte)",
       ],
     },
   },

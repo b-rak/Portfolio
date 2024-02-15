@@ -101,7 +101,7 @@ export default {
         "The current focus is on slowly onboarding customers and testing the MVP. Feedback is to be obtained via questionnaires and several individual interviews. After evaluating the feedback, the MVP will be further developed accordingly.",
         "In addition to the feedback, the development of the profile area, in which users can change data such as passwords or notification settings, is still missing.",
       ],
-      info: "Linked is a demo version of the dashboard. The 'Dashboard', 'Testfälle' and 'Testfalldetails' areas are currently ready. The login details are as follows: Mail: demo%40mail.de; PW: JZecn%40ug$K",
+      info: "Linked is a demo version of the dashboard. The 'Dashboard', 'Testfälle' and 'Testfalldetails' areas are currently ready, although there is an error in the backend which causes that test results are no longer displayed. The error will be fixed on Friday 16.02. The login details are as follows: Mail: demo%40mail.de; PW: JZecn%40ug$K",
       images: {
         numberOfImages: "6",
         folder: "dashboard",
@@ -143,7 +143,7 @@ export default {
         "Development of new and further development of existing services with a focus on automation",
         "Conducting interviews to identify our customers' problems",
         "Problem solving through prototype design and concrete implementation",
-        "Projects: Automatic creation of a test automation infrastructure (rejected), Automated accessibility testing, New front end for a dashboard of an internal service",
+        "Projects: Automatic creation of a test automation infrastructure (rejected), Automated accessibility testing, New front end for a dashboard of an internal service (see coding projects)",
       ],
     },
   },
