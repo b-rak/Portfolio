@@ -13,6 +13,31 @@ definePageMeta({
 });
 const projects = [
   {
+    tech: ["React", "Typescript", "Tailwind", "Express", "MongoDB", "Python"],
+    image: "/images/uplift/uplift_3.png",
+    path: "uplift",
+    prjKey: "uplift",
+  },
+  {
+    tech: ["React", "Typescript", "Jest", "Express"],
+    image: "/images/barsync/barsync_1.png",
+    path: "bar-sync",
+    prjKey: "barSync",
+  },
+  {
+    tech: [
+      "React",
+      "Javascript",
+      "Tailwind",
+      "Express",
+      "MongoDB",
+      "Cloudinary",
+    ],
+    image: "/images/cooksphere/cooksphere_1.png",
+    path: "cooksphere",
+    prjKey: "cooksphere",
+  },
+  {
     tech: ["Nuxt3", "Typescript", "Tailwind", "Springboot"],
     image: "/images/dashboard/newDashboard_2.png",
     path: "new-dashboard",
@@ -23,18 +48,6 @@ const projects = [
     image: "/images/masteringnuxt/masteringNuxt_1.png",
     path: "mastering-nuxt-3",
     prjKey: "masteringNuxt",
-  },
-  {
-    tech: ["Vanilla JS", "HTML", "CSS"],
-    image: "/images/adventofjs.png",
-    path: "js-challenges",
-    prjKey: "jsChallenges",
-  },
-  {
-    tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
-    image: "/images/naehrstoffrechner/naehrstoffe_1.png",
-    path: "nutrition-calculator",
-    prjKey: "naehrstoffe",
   },
 ];
 </script>

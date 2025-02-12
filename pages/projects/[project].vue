@@ -20,10 +20,11 @@ const localePath = useLocalePath();
 const route = useRoute();
 const prjKey = computed(() => {
   const param = route.params.project;
-  if (param === "nutrition-calculator") return "naehrstoffe";
-  else if (param === "js-challenges") return "jsChallenges";
-  else if (param === "mastering-nuxt-3") return "masteringNuxt";
+  if (param === "mastering-nuxt-3") return "masteringNuxt";
   else if (param === "new-dashboard") return "newDashboard";
+  else if (param === "cooksphere") return "cooksphere";
+  else if (param === "bar-sync") return "barSync";
+  else if (param === "uplift") return "uplift";
   else return "";
 });
 

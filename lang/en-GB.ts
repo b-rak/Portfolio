@@ -33,40 +33,6 @@ export default {
     backButton: "Back to Projects",
     techAriaLabel: "List of used technologies",
     currentInfo: "Current information: ",
-    naehrstoffe: {
-      title: "Nutrient Calculator",
-      overviewDescription:
-        "A nutrient calculator with which products can be searched through a FoodData API and added to a list. The quantity of products can be specified and the list calculates the sum of the nutritional values of all products on the list.",
-      github: "https://github.com/b-rak/NaehrstoffApi",
-      tech: ["Vanilla JS", "Bootstrap", "Webpack", "Node.JS", "Jest"],
-      webpage: "",
-      text: [
-        "In the Udemy course 'Die komplette JavaScript Masterclass: Vom Anfänger zum Profi' by Jannis Seemann, the basics of JavaScript such as data types, arrays, functions and objects were covered first. More advanced concepts such as prototype inheritance, asynchronous JavaScript and JavaScript in the browser were covered afterwards.",
-        "To strengthen the aquired knowledge, a nutrient calculator was implemented as a project. The HTML structure and CSS were predefined. In the first step, the components 'product search', 'product list' and 'nutritional values' were created as classes (constructor functions). The 'FoodData Central API' was used to search for products. A Node.JS server was created to access through the API information about products such as nutritional values. The searched products can be added to the product list and the quantity of the product (in g) can be set. The sum of the nutritional values of all products (incl. quantity) on the list is displayed below the list. In order to make the individual components safe, simple unit testing with Jest has been integrated.",
-      ],
-      info: "",
-      images: {
-        numberOfImages: "4",
-        folder: "naehrstoffrechner",
-      },
-    },
-    jsChallenges: {
-      title: "JS Challenges: Advent of JavaScript 2021/22",
-      overviewDescription:
-        "An advent calendar full of Javascript challenges. Each day contains a different challenge, including challenges such as a timer, a cost-sharing app and a weather app.",
-      github: "https://github.com/b-rak/AdventOfJS",
-      tech: ["Vanilla JS", "HTML", "CSS"],
-      webpage: "https://www.adventofjs.com/",
-      text: [
-        "An advent calendar full of JavaScript challenges created by Amy Dutton and James Q Quick. Each challenge provides the HTML structure and CSS so that you can concentrate fully on the JavaScript code.",
-        "Among the challenges there are many useful components such as a cost divider app or a weather app. There is also a timer, a video play list, a password generator and many more.",
-      ],
-      info: "There is also an Advent of JS 2023 from Amy Dutton, in which an ongoing project is built instead of the mini challenges: the Secret Santa app. At the beginning of the challenge one receives a Figma file with the design, so that the project can be built completely from scratch. I'm currently working on this project, but due to time constraints I've only managed to build the login page so far (see last screenshot).",
-      images: {
-        numberOfImages: "8",
-        folder: "adventofjs",
-      },
-    },
     masteringNuxt: {
       title: "Mastering Nuxt 3",
       overviewDescription:
@@ -105,6 +71,78 @@ export default {
       images: {
         numberOfImages: "6",
         folder: "dashboard",
+      },
+    },
+    cooksphere: {
+      title: "Cooksphere",
+      overviewDescription:
+        "A full-stack app that offers users a platform for discovering, saving and uploading recipes.",
+      github: "https://github.com/b-rak/Cooksphere",
+      tech: [
+        "React",
+        "Javascript",
+        "Tailwind",
+        "Express",
+        "MongoDB",
+        "Cloudinary",
+      ],
+      webpage: "https://youtu.be/HH9oJWDL5-k",
+      text: [
+        "This project was created as a solo project. The idea came to me because there is no nice recipe platform for me. Instead, there are too many blogs that display recipes. Cooksphere allows you not only to share recipes, but also to save them and create your own digital recipe book.",
+        "I developed the frontend with React, Javascript and Tailwind. The backend was developed with Express together with MongoDB and mongoose as an ORM. Cloudinary serves as cloud storage for recipe images.",
+        "Users can view or search for recipes by category. Recipe results can be sorted and filtered. On the recipe page, users can see ingredients and instructions as well as reviews from other users. Of course, users can also write their own reviews. They can also save recipes and find them again in their profile. Finally, users can upload their own recipes via their profile and not only save them to their profile, but also share them with the community.",
+      ],
+      info: "There is currently no login or authentication. These are the next features to be developed.",
+      images: {
+        numberOfImages: "5",
+        folder: "cooksphere",
+      },
+    },
+    barSync: {
+      title: "barSync",
+      overviewDescription:
+        "An app that allows users to manage their cocktail ingredients and discover new drinks.",
+      github: "https://github.com/b-rak/barSync",
+      tech: ["React", "Typescript", "Jest", "Express"],
+      webpage: "",
+      text: [
+        "This project is an existing project that another developer and I have made improvements to.",
+        "Both frontend and backend were migrated from Javascript to Typescript and tests with Jest were added to make them more robust through type safety and testing.",
+        "The frontend code was refactored and global state management was introduced. Last but not least, login and authentication were added.",
+      ],
+      info: "",
+      images: {
+        numberOfImages: "4",
+        folder: "barSync",
+      },
+    },
+    uplift: {
+      title: "Uplift",
+      overviewDescription:
+        "An app that allows users to monitor their mood and activities to gain insights into their patterns and overall wellbeing.",
+      github: "https://github.com/uplift-app/uplift",
+      tech: [
+        "React",
+        "Typescript",
+        "Tailwind",
+        "Vitest",
+        "Express",
+        "MongoDB",
+        "Jest",
+        "Python",
+      ],
+      webpage: "https://youtu.be/cIFsfbwOCHA",
+      text: [
+        "This project was realised as a group of 4.",
+        "The frontend was developed with React and ShadCN as a component library, using Tailwind as a CSS framework. The backend was developed with Express and MongoDB with mongoose as an ORM. Both frontend and backend were written in Typescript.",
+        "The data analysis was written in Python. The analysis is started via the frontend and the results are sent back to the frontend where they are used within the chart components.",
+        "Authentication was implemented using Clerk.",
+        "My responsibilities were in both the frontend and the backend. In the backend, I helped with the general structure and was responsible for the whole process of the Python analysis. In the frontend, I took care of state management and was responsible for the design. Using Tailwind, I was able to create a clear and consistent design within the app and make it completely responsive.",
+      ],
+      info: "",
+      images: {
+        numberOfImages: "5",
+        folder: "uplift",
       },
     },
   },
