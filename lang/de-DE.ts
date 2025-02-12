@@ -193,13 +193,14 @@ export default {
         "Geboren am 05.11.1993 in Mönchengladbach",
         "Seit 2013 wohnhaft in Köln",
         "Freizeit: Lesen, Unterwegs, analoge Fotografie, Nintendo Switch",
-        "Haustiere: bald eine Wasserschildkröte :)",
+        "Haustiere: Wasserschildkröte 🐢",
         'Random Info: bei "Schere, Stein oder Papier" nehme ich immer zuerst Stein. Lust auf ein ',
       ],
     },
     skills: [
-      "Programmiersprachen: JS/TS, Python, Java",
-      "Frontend: HTML, CSS, Tailwind, Nuxt3, Svelte (Basics), Netlify, Unittesting mit Jest (Basics)",
+      "Programmiersprachen: Javascript/Typescript, Python, Java",
+      "Frontend: React, Tailwind, Vue.js, Nuxt3, Svelte (Basics), Netlify, Jest",
+      "Backend: Express, Node.js, Koa, Postgres, MongoDB",
       "Git",
       "Grundkenntnisse Accessibilty im Rahmen der AxeCore Library",
       "QA Testing (Jira, Confluence, Testrail)",
@@ -211,6 +212,7 @@ export default {
     education: {
       title: "Ausbildung",
       text: [
+        "Software Engineering Immersive Bootcamp von Codeworks (2024-2025)",
         "Studium B.Sc. Mathematik (2013-2017) und B.Sc. Chemie (2013-2017) an der Universität zu Köln -> Ja, ich habe 2 Vollzeitstudiengänge parallel studiert (empfehle ich nicht weiter :D)",
         "Studium M.Sc. Mathematik (2017-2020) an der Universität zu Köln",
         "Erasmus Auslandssemester im Jahre 2018 in Budapest",

@@ -192,14 +192,15 @@ export default {
       text: [
         "Born on 05.11.1993 in Mönchengladbach",
         "Resident in Cologne since 2013",
-        "Free time: reading, being outdoors, analog photography, Nintendo Switch",
-        "Pets: soon an aquatic turtle :)",
+        "Free time: reading, being outdoors, analogue photography, Nintendo Switch",
+        "Pets: aquatic turtle 🐢",
         'Random info: when it comes to "rock, paper or scissors", I always go for rock first. Fancy a ',
       ],
     },
     skills: [
-      "Programming languages: JS/TS, Python, Java",
-      "Frontend: HTML, CSS, Tailwind, Nuxt3, Svelte (Basics), Netlify, Unittesting with Jest (Basics)",
+      "Programming languages: Javascript/Typescript, Python, Java",
+      "Frontend: React, Tailwind, Vue.js, Nuxt3, Svelte (Basics), Netlify, Jest",
+      "Backend: Express, Node.js, Koa, Postgres, MongoDB",
       "Git",
       "Basic knowledge of accessibility in the context of the AxeCore Library",
       "QA Testing (Jira, Confluence, Testrail)",
@@ -211,6 +212,7 @@ export default {
     education: {
       title: "Education",
       text: [
+        "Software Engineering Immersive Bootcamp of Codeworks (2024-2025)",
         "Studied B.Sc. Mathematics (2013-2017) and B.Sc. Chemistry (2013-2017) at the University of Cologne -> Yes, I studied 2 full-time degree programs in parallel (I do not recommend it :D)",
         "Studied M.Sc. Mathematics (2017-2020) at the University of Cologne",
         "Erasmus semester abroad in Budapest in 2018",

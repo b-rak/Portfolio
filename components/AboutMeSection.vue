@@ -22,7 +22,10 @@
       <li v-for="(text, ind) in $tm('aboutme.' + langKey + '.text')">
         {{ $rt(text) }}
         <slot
-          v-if="ind === ($tm('aboutme.' + langKey + '.text') as Array<string>).length - 1"
+          v-if="
+            ind ===
+            ($tm('aboutme.' + langKey + '.text') as Array<string>).length - 1
+          "
         />
       </li>
     </ul>

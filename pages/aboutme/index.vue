@@ -21,41 +21,16 @@
         Skills
       </h3>
       <ul class="rounded-md p-4 text_regular_18">
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="code" iconWidth="w-6" />
-          {{ $t("aboutme.skills[0]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="desktop" iconWidth="w-5" />
-          {{ $t("aboutme.skills[1]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fab" iconName="git-alt" iconWidth="w-5" />
-          {{ $t("aboutme.skills[2]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fab" iconName="accessible-icon" iconWidth="w-5" />
-          {{ $t("aboutme.skills[3]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="list-check" iconWidth="w-5" />
-          {{ $t("aboutme.skills[4]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="robot" iconWidth="w-6" />
-          {{ $t("aboutme.skills[5]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="user-astronaut" iconWidth="w-5" />
-          {{ $t("aboutme.skills[6]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fab" iconName="docker" iconWidth="w-6" />
-          {{ $t("aboutme.skills[7]") }}
-        </li>
-        <li class="flex items-center gap-4 text-darkGray dark:text-lightGray">
-          <FAIcon iconPrefix="fas" iconName="terminal" iconWidth="w-5" />
-          {{ $t("aboutme.skills[8]") }}
+        <li
+          v-for="(text, ind) in $tm('aboutme.skills')"
+          class="flex items-center gap-4 text-darkGray dark:text-lightGray"
+        >
+          <FAIcon
+            :iconPrefix="icons[ind].iconPrefix"
+            :iconName="icons[ind].iconName"
+            :iconWidth="icons[ind].iconWidth"
+          />
+          {{ $rt(text) }}
         </li>
       </ul>
     </div>
@@ -73,6 +48,19 @@ li + li {
 
 <script lang="ts" setup>
 const localePath = useLocalePath();
+
+const icons = [
+  { iconPrefix: "fas", iconName: "code", iconWidth: "w-6" },
+  { iconPrefix: "fas", iconName: "desktop", iconWidth: "w-5" },
+  { iconPrefix: "fas", iconName: "gear", iconWidth: "w-5" },
+  { iconPrefix: "fab", iconName: "git-alt", iconWidth: "w-5" },
+  { iconPrefix: "fab", iconName: "accessible-icon", iconWidth: "w-5" },
+  { iconPrefix: "fas", iconName: "list-check", iconWidth: "w-5" },
+  { iconPrefix: "fas", iconName: "robot", iconWidth: "w-6" },
+  { iconPrefix: "fas", iconName: "user-astronaut", iconWidth: "w-5" },
+  { iconPrefix: "fab", iconName: "docker", iconWidth: "w-6" },
+  { iconPrefix: "fas", iconName: "terminal", iconWidth: "w-5" },
+];
 
 definePageMeta({
   title: "About Me",
