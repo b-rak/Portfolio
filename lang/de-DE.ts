@@ -27,7 +27,7 @@ export default {
     sorry: "Das tut mir leid.",
   },
   landing:
-    "Mit umfassender Erfahrung in manuellem und automatisiertem Testing bin ich aktuell als Innovation Engineer tätig. Mein Ziel ist es, diese fundierte Expertise in die Welt des Frontend Developments einzubringen, um herausragende Benutzererlebnisse zu gestalten.",
+    "Mit umfassender Erfahrung in manuellen und automatisierten Tests habe ich mein Fachwissen in die Softwareentwicklung erweitert, mit Schwerpunkt auf Frontend-Entwicklung, während ich auch Erfahrung mit Backend-Technologien habe. Meine Ziel ist es, intuitive und ansprechende Benutzererlebnisse zu schaffen, indem ich technische Präzision mit einem tiefen Verständnis für Qualität und Innovation kombiniere.",
   projects: {
     title: "Projekte",
     backButton: "Zurück zu Projekte",

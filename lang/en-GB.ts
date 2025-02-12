@@ -27,7 +27,7 @@ export default {
     sorry: "I am sorry for that.",
   },
   landing:
-    "With broad experience in manual and automated testing, I am currently working as an Innovation Engineer. My goal is to bring this in-depth expertise to the world of frontend development to create outstanding user experiences.",
+    "With a strong background in manual and automated testing, I have expanded my expertise into software engineering, specializing in frontend development while also having experience in backend technologies. My goal is to build intuitive and engaging user experiences, combining technical precision with a deep understanding of quality and innovation.",
   projects: {
     title: "Projects",
     backButton: "Back to Projects",
