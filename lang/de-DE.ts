@@ -176,12 +176,20 @@ export default {
       ],
     },
     innovation: {
-      time: "03/2023 - heute bei ",
+      time: "03/2023 - 06/2024 bei ",
       tasks: [
         "Entwicklung neuer und Weiterentwicklung bestehender Services mit Fokus auf Automatisierung",
         "Durchführung Interviews zur Problemidentifikation unserer Kunden",
         "Problemlösung durch Entwerfung Prototyp und konkreter Umsetzung",
         "Projekte: Automatische Erstellung einer Testautomatisierungsinfrastruktur (verworfen), Automatisiertes Accessiblity Testing, Neues Frontend für ein Dashboard eines internen Services (s. Coding Projekte)",
+      ],
+    },
+    softwareEngineer: {
+      time: "06/2024 - heute ",
+      tasks: [
+        "Cooksphere: Entwicklung einer Fullstack-App zum Entdecken, Speichern und Teilen von Rezepten. Entwickelt wurde das Frontend mit React und Tailwind und das Backend mit Express und MongoDB unter Verwendung von Mongoose",
+        "BarSync: In einer 2er-Gruppe ein JavaScript-Projekt auf TypeScript migriert, eine Jest-Testsuite integriert, Authentifizierung und globales State Management implementiert",
+        "Uplift: In einer 4-er Gruppe eine Fullstack-App entwickelt, mit der Nutzer ihre Stimmungen und ihr Verhalten verfolgen können. Meine Hauptaufgaben waren einheitliches und responsives Design mit Tailwind und Datenanalyse mit Python",
       ],
     },
   },

@@ -184,6 +184,14 @@ export default {
         "Projects: Automatic creation of a test automation infrastructure (rejected), Automated accessibility testing, New front end for a dashboard of an internal service (see coding projects)",
       ],
     },
+    softwareEngineer: {
+      time: "06/2024 - heute ",
+      tasks: [
+        "Cooksphere: Built a fullstack app for discovering, saving, and sharing recipes. Developed the frontend with React and Tailwind, and the backend with Express and MongoDB using Mongoose",
+        "BarSync: Upgraded in a group of two a JavaScript project by migrating it to TypeScript, implementing a Jest test suite, and introducing global state management to increase safety and efficiency of code",
+        "Uplift: Worked in a team of four to build a fullstack mood-tracking app. Led design consistency, responsiveness, and data analysis setup with Python",
+      ],
+    },
   },
   aboutme: {
     title: "About Me",
