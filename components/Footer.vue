@@ -18,7 +18,7 @@
     <LinkIcon
       iconName="linkedin"
       iconPrefix="fab"
-      to="https://www.linkedin.com/in/burak-tas-083037266"
+      to="https://www.linkedin.com/in/tas-burak/"
     />
     <div
       class="h-1 w-20 bg-orangeBrown dark:bg-warmOrange rounded-md"
